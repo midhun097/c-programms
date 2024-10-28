@@ -1,0 +1,22 @@
+int main()
+{
+    float percent;
+    printf("enter percentage marks :");
+    scanf("%f",&percent);
+    if(percent>=90 && percent<=100)
+    {
+    printf("grade is A");
+    }
+    else if(percent>=80 && percent<90)
+    {
+    printf("grade is B");
+    }
+    else if(percent>=70 && percent<80)
+    {
+    printf("grade is c");
+    }
+    else{
+        printf("Failed");
+    }
+    return 0;
+}

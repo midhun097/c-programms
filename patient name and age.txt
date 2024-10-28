@@ -1,0 +1,18 @@
+int main()
+{
+    char patientName[15];
+    int age;
+    double Height;
+    printf("enter patient,s name:\n");
+    scanf("%s",patientName);
+    printf("enter age:\n");
+    scanf("%d",&age);
+    printf("enter Height:");
+    scanf("%lf",&Height);
+    printf("patient name %s\n", patientName); //print function
+    printf(" %d year old\n", age); 
+    printf("height of patient %f", Height);
+  
+
+    return 0;
+}

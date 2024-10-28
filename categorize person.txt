@@ -1,0 +1,23 @@
+int main()
+{
+    int age;
+    printf("its a child: ");
+    scanf("%d",&age);
+    if(age<=12 && age>0)
+    {
+        printf("its a teen");
+    }
+    else if(age<=19 && age>13)
+    {
+        printf("its a adult");
+    }
+    else if(age<=64 && age>20)
+    {
+        printf("its a senior");
+    }
+    else
+    {
+        printf("expired");
+    }
+    return 0;
+}

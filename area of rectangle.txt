@@ -1,0 +1,11 @@
+int main()
+{
+    int length = 7;
+    int width = 8;
+    int area;
+    area= length*width;
+    printf("length:%d\n", length);
+    printf("width:%d\n", width);
+    printf("area of rectangle is: %d",area);
+    return 0;
+}

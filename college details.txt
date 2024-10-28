@@ -1,0 +1,13 @@
+int main()
+{
+    int studentId = 10;
+    int studentAge= 24;
+    float Mark =67.45;
+    char Grade = 'C';
+    printf("student Id:%d\n" , studentId);
+    printf("student Age:%d\n" , studentAge);
+    printf("float Mark:%f\n" , Mark);
+    printf("char Grade:%c" ,Grade);
+
+    return 0;
+}
