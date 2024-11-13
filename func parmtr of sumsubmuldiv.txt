@@ -1,0 +1,37 @@
+#include <stdio.h>
+void calculateSum() {
+  int x = 5;
+  int y = 10;
+  int sum = x + y;
+  printf("The sum of x + y is: %d\n", sum);
+}
+void calculateSub() {
+  int x = 7;
+  int y = 10;
+  int Sub = x - y;
+  printf("The sum of x - y is: %d\n", Sub);
+}
+void calculatemul() {
+  int x = 5;
+  int y = 10;
+  int mul = x * y;
+  printf("The sum of x * y is: %d\n", mul);
+}
+void calculatedivi() {
+  int x = 5;
+  int y = 10;
+  float divi = x / y;
+  printf("The sum of x / y is: %f\n", divi);
+}
+
+int main()
+{
+    calculateSum();  
+
+    calculateSub(); 
+
+    calculatemul();  
+  
+    calculatedivi();  
+  return 0;
+}

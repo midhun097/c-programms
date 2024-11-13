@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int sumupton(int n);
+int sum =0;
+for(inti=1:i<=n;i++) {
+    sum+=1;
+}
+return sum;
+}
+int main(){
+int number;
+    printf("enter a number: ");
+    scanf("%d",&number);
+    
+    int result = sumupton(intn);
+    printf("the sum of elements from 1 to %d is:%D\n", number,result);
+
+    return 0;
+}
